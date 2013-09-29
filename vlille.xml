@@ -1,0 +1,17 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleVLille" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleVLille" scope="public">
+    <example>Sarah, il y à encore des vélos</example>
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+      <item>il y a encore des vélos</item>
+      <item>il y a encore des v lille</item>
+      <item>vélo</item>
+      <item>vélos</item>
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/vlille";</tag>
+  </rule> 
+</grammar>
