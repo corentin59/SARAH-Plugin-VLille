@@ -2,7 +2,7 @@
   "modules": { 
     "vlille": {
       "description": "V'Lille",
-      "station id": "1"
+      "station": "1"
     }
   }
 }
